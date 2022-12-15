@@ -22,3 +22,13 @@ Route::get('/', function () {
     ];
     return view('home', ['data' => $data]);
 });
+
+Route::get('/about', function () {
+
+    $data = [
+        'nameOne' => 'Lorenzo',
+        'nameTwo' => 'Marco',
+        'nameThree' => 'Caterina'
+    ];
+    return view('about', ['data' => $data]);
+});
