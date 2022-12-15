@@ -14,6 +14,14 @@
 
     <h1>Hello World!</h1>
 
+    <ul>
+        @foreach ($data as $name)
+
+        <li>{{$name}}</li>
+
+        @endforeach
+    </ul>
+
 </body>
 
 </html>
